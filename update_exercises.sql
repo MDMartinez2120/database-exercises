@@ -13,7 +13,7 @@ SET sales = sales * 10;
 
 SELECT * FROM albums;
 UPDATE  albums
-SET release_date = release_date = 1980 - 100;
+SET release_date = release_date - 100 WHERE release_date < 1980;
 
 
 SELECT * FROM albums;
