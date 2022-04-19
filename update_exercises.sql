@@ -13,12 +13,12 @@ SET sales = sales * 10;
 
 SELECT * FROM albums;
 UPDATE  albums
-SET release_date = release_date <= 1980 - 100;
+SET release_date = release_date = 1980 - 100;
 
 
 SELECT * FROM albums;
 UPDATE albums
-SET artist = 'micheal jackson', artist = 'Peter Jackson'
-WHERE artist = 'micheal jackson'
+SET artist = 'michael jackson', artist = 'Peter Jackson'
+WHERE artist = 'michael jackson'
 
 
